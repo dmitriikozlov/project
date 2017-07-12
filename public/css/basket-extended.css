@@ -1,0 +1,54 @@
+#basket_advanced {
+    display: none;
+    
+    background-color: black;
+    color: white;
+}
+
+#basket_advanced input[type="text"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #ff9c00;
+    height: 55px;
+    color: #fff;
+    background: transparent;
+    font-size: 22px;
+}
+
+#basket_advanced input[type="text"]::-webkit-input-placeholder,
+                 input[type="email"]::-webkit-input-placeholder
+{
+    color: white;
+}
+
+#basket_advanced a {
+    color: white;
+    text-decoration: underline;
+}
+
+#basket_advanced input[type="button"], input[type="submit"] {
+    display: block;
+    color: #fff;
+    border: none;
+    height: 55px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 55px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #ff9c00;
+    cursor: pointer;
+    background-image: url("../images/flow-button.png");
+    width: 278px;
+    transition: all 0.3s;
+    box-shadow: 0 0 0 #000;
+}
+
+#basket_advanced h2 {
+    margin: 20px 0px;
+    color: darkorange;
+}
+
+#basket_advanced .number {
+    width: 150px;
+}

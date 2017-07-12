@@ -1,0 +1,25 @@
+.delivery .schedule {
+    font-style: italic;
+}
+
+#hat .shares p {
+    font-style: italic;
+}
+
+#hat .shares {
+    line-height: 150%;
+}
+
+.delivery {
+    line-height: 150%;
+}
+
+.he {
+    display: inline-block;
+    position: relative;
+	left: 600px;
+    font-weight: 700;
+    color: #faf655;
+    font-size: 26px;
+    text-transform: uppercase;
+}

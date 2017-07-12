@@ -1,0 +1,1037 @@
+.background {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.pizza {
+    display: block;
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+    padding: 60px 0px 0px 0px;
+}
+
+.pizza .logo {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.pizza .logo img {
+    display: inline-block;
+    position: relative;
+    width: 367px;
+    height: 732px;
+}
+
+.pizza .content {
+    display: inline-block;
+    vertical-align: top;
+    width: 758px;
+}
+
+.pizza .content .top {
+    display: block;
+    position: relative;
+    left: 41px;
+}
+
+.pizza .content .top .title {
+    display: block;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 37px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pizza .content .top .title span:last-child {
+    font-size: 35px;
+}
+
+.pizza .content .top .size {
+    display: block;
+    color: white;
+    padding-top: 21px;
+}
+
+.pizza .content .top .size .select {
+    display: inline-block;
+    padding: 5px 15px;
+    width: 300px;
+    border: 1px dashed #FFDA5F;
+    border-radius: 2px;
+    color: #ffda5f;
+    cursor: pointer;
+}
+
+.pizza .content .top .size .select * {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.pizza .content .top .size .select .white {
+    color: white;
+}
+
+.arrow {
+    position: relative;
+    top: 0px;
+    float: right;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(225deg);
+}
+
+.pizza .content .top .ingredients {
+    display: block;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 15pt;
+    margin-top: 45px;
+}
+
+.pizza .content .top .ingredients span:first-child {
+    color: #ff9c00;
+}
+
+.pizza .content .top .weight {
+    display: block;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 15pt;
+    margin-top: 14px;
+}
+
+.pizza .content .top .weight span:first-child {
+    color: #ff9c00;
+}
+
+.pizza .content .top .price {
+    font-size: 60px;
+    font-family: "Roboto";
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.pizza .content .top .price .right {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    top: -22px;
+}
+
+.pizza .content .top .order {
+    float: right;
+}
+
+.pizza .content .top .order button {
+    width: 278px;
+    height: 56px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-position: 50% 0;
+    background-color: #774900;
+    background-image: url("../images/flow-button.png");
+    background-size: 100%;
+    font-size: 16pt;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    color: white;
+    position: relative;
+    top: -65px;
+}
+
+.pizza .content .top .order button:hover {
+    background-color: #AD6800;
+    box-shadow: 0 0 10px #a5711c;
+}
+
+.pizza .logo:before {
+	/*
+    content: ' ';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #FF9C00;
+    border-radius: 50%;
+    left: 353px;
+    top: 355px;
+	*/
+}
+
+.pizza .logo:after {
+    content: ' ';
+    position: absolute;
+    width: 216%;
+    height: 2px;
+    background-color: #FF9C00;
+    left: 375px;
+    top: 365px;
+}
+
+.pizza .menu {
+    display: block;
+    height: auto;
+    position: relative;
+    left: 41px;
+    top: 90px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 120px;
+}
+
+.pizza .menu .category {
+    display: block;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.pizza .menu .category .ingredients {
+    height: auto;
+}
+
+.pizza .menu .category .title {
+    display: block;
+    color: #F4D15B;
+    margin-bottom: 20px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.pizza .menu .category .dropdown {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid #D78400;
+    border-left: 1px solid #D78400;
+    transform: rotate(45deg);
+
+}
+
+.pizza .menu .category .title .text {
+    display: inline-block;
+    padding-left: 12px;
+    color: #F4D15B;
+}
+
+.pizza .menu .category .ingredients .item {
+    display: block;
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.pizza .menu .category .ingredients .item .image {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    left: 0px;
+    top: 0px;
+    width: 46px !important;
+    height: 46px !important;
+    background-size: 100% 100% !important;
+}
+
+.pizza .menu .category .ingredients .item .name {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    height: 50px;
+    padding-left: 28px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.pizza .menu .category .ingredients .item .price {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    left: 450px;
+    top: 10px;
+    width: 168px;
+    height: 50px;
+    padding-left: 0px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.pizza .menu .category .ingredients .item .action {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    left: 618px;
+    top: 10px;
+    width: 142px;
+    height: 39px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    border: 1px solid #331F00;
+}
+
+.pizza .menu .category .ingredients .item .action span {
+    position: relative;
+    top: 3px;
+}
+
+.pizza .menu .category .ingredients .item .action .minus {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    left: 2px;
+    top: 2px;
+    width: 33px;
+    height: 33px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    background-color: #804E00;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.pizza .menu .category .ingredients .item .action  .minus:hover,
+.pizza .menu .category .ingredients .item .action .plus:hover {
+    background-color: #FF9C00;
+    box-shadow: 0px 0px 2px 2px #804E00;
+}
+
+
+.pizza .menu .category .ingredients .item .action .count {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    left: 36px;
+    top: 3px;
+    width: 67px;
+    height: 33px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pizza .menu .category .ingredients .item .action .plus {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    top: 2px;
+    right: 2px;
+    width: 33px;
+    height: 33px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    background-color: #804E00;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.pizza .menu .category .ingredients .item:not(:first-child) {
+    border-top: 1px dashed #B87900;
+}
+
+.pizza .menu .category .ingredients .item-separator {
+    display: block;
+    width: 100%;
+    border-bottom: 1px dashed #D78400;
+}
+
+.pizza .content .top .ingredients .value:after {
+    content: ', ';
+}
+
+.pizza .content .top .ingredients .value:last-child:after {
+    content: '';
+}
+
+.select .context {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 98px;
+    z-index: 1000;
+    background-color: black;
+    border: 1px dashed #FFDA5F;
+}
+
+.select .context div {
+    display: block;
+    padding: 5px 15px;
+
+    border-radius: 2px;
+    color: #ffda5f;
+    width: 298px;
+    user-select: none;
+}
+
+.select .context div:hover {
+    color: black;
+    background-color: #ffa800;
+    font-weight: 400;
+}
+
+.pizza-block {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.pizza-wrapper {
+    display: block;
+    width: 1200px;
+    height: auto;
+    color: white;
+    margin: 0 auto;
+}
+
+.thanks, .thanks * {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.thanks {
+    display: inline-block;
+    position: relative;
+    left: -50px;
+    width: 499px;
+    height: 437px;
+    background: #FF9C00;
+}
+
+.thanks .header {
+    height: 175px;
+    text-align: center;
+}
+
+.thanks .header .close {
+    position: absolute;
+    top: 13px;
+    right: 17px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.thanks .header .close:before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    border-top: 1px solid #A84802;
+    transform: rotate(45deg);
+}
+
+.thanks .header .close:after {
+    content: '';
+    position: relative;
+    display: inline-block;
+    top: -18px;
+    width: 18px;
+    border-bottom: 1px solid #A84802;
+    transform: rotate(135deg);
+}
+
+.thanks .header .title1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+.thanks .header .title2 {
+    position: relative;
+    top: -10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #f36700;
+    text-transform: uppercase;
+}
+
+.thanks .main {
+    height: 98px;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.thanks .main * {
+    vertical-align: top;
+}
+
+.thanks .main .left {
+    display: inline-block;
+    width: 300px;
+    line-height: 25px;
+    text-transform: uppercase;
+    height: 31px;
+    word-wrap: break-word;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    color: #ff9c00;
+}
+
+.thanks .main .right {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    text-transform: uppercase;
+    height: 31px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #ff2323;
+}
+
+.thanks .main .right span:last-child {
+    font-size: 25px;
+    position: relative;
+    font-weight: 500;
+    top: 9px;
+}
+
+.thanks .footer {
+    height: 164px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.thanks .footer .left {
+    display: inline-block;
+}
+
+.thanks .footer .left a {
+    text-decoration: none;
+}
+
+.thanks .footer .left div {
+    display: inline-block;
+    position: relative;
+}
+
+.thanks .footer .left div:hover {
+    top: -5px;
+}
+
+.thanks .footer .right {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 8px;
+}
+
+.thanks .footer .right span {
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.thanks .footer .right span:first-child {
+    color: #FAF857;
+    font-size: 18px;
+}
+
+.thanks .footer .right span:last-child {
+    position: relative;
+    top: -5px;
+    color: white;
+    font-size: 22px;
+}
+
+.thanks .footer .bottom {
+    color: #F36700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 15%;
+    background-color: rgba(0,0,0, 0.7);
+    z-index: 100000;
+}
+
+[data-id="datetime"] span {
+    display: inline-block !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    position: relative !important;
+}
+
+[data-id="datetime"] input {
+    display: inline-block !important;
+    background-color: black !important;
+    width: 56px !important;
+    height: 40px !important;
+    color: white !important;
+    border-bottom: 1px solid #ff9c00 !important;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.pizza-constructor {
+    display: inline-block;
+    float: left;
+    position: relative;
+    background-color: black;
+    width: 380px;
+    height: auto;
+    margin: 0 15px;
+}
+
+.pizza-constructor > img {
+    height: 335px;
+    width: 380px;
+}
+
+.pizza-constructor > div {
+    height: 314px;
+    width: 380px;
+    background: black;
+}
+
+.pizza-constructor .name {
+    position: relative;
+    top: 60px;
+    padding: 0 80px 2px 10px;
+    line-height: 73px;
+    height: 75px;
+    background: #ff9c00;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.pizza-constructor .link {
+    background-color: #b40101;
+}
+
+.pizza-constructor .link {
+    text-decoration: none;
+    background-position: center center;
+    transition: all 0.3s;
+    position: relative;
+    top: 160px;
+}
+
+.pizza-constructor .link a {
+    display: block;
+    height: 75px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 75px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-image: url(../images/flow-button.png);
+    background-size: 100%;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 #000;
+    text-decoration: none;
+}
+
+.pizza-constructor .link a:hover {
+    box-shadow: 0 0 21px #673030;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .pizza {
+        width: 100%;
+    }
+
+    .pizza .content .top .order {
+        position: relative;
+        top: 65px;
+        width: 80%;
+        text-align: left;
+        left: 10%;
+        float: left;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .pizza .content .top .order #order_pizza {
+        width: 100%;
+    }
+
+    .pizza .logo {
+        display: none;
+    }
+
+    .pizza .menu .category .ingredients .item {
+        width: 100%;
+        height: 180px;
+    }
+
+    .pizza .menu .category .ingredients .item .price {
+        top: 50px;
+        left: 5%;
+    }
+
+    .pizza .menu .category .ingredients .item .action {
+        top: 95px;
+        left: 5%;
+        width: 90%;
+        height: 80px;
+    }
+
+    .pizza .menu .category .ingredients .item-separator {
+        width: 100%;
+    }
+
+    .pizza .menu .category .ingredients .item:not(:first-child) {
+        border-top: none;
+    }
+
+    .pizza-wrapper {
+		text-align: center;
+        width: 100%;
+    }
+    .pizza-content {
+        position: relative;
+        left: 5%;
+        width: 80%;
+    }
+
+	
+	.icon-pizza:before {
+		content: "\e918";
+	}
+
+    .pizza .content .top .ingredients {
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+
+    #checkout .product {
+        position: relative;
+        width: 480px;
+        padding-top: 10px;
+    }
+
+    #checkout .product .name p {
+        position: absolute;
+        left: 120px;
+        top: 15px;
+    }
+
+    #checkout .product .price {
+        position: absolute;
+        left: 0px;
+        top: 85px;
+    }
+	
+	footer .footer-nav ul li {
+		text-align: center;
+		font-size: 25px;
+		display: block !important;
+		width: 100% !important;
+	}
+	
+	footer .footer-menu > div.first, footer .footer-menu > div.second {
+		display: block !important;
+		width: 100% !important;
+		border-top: 1px solid #673030;
+		padding-top: 20px;
+		text-align: center;
+	}
+	
+	#mobile_menu {
+		z-index: 1000;
+	}
+	
+	#basket_block {
+		z-index: 1000;
+		position: fixed;
+        padding-left: 5%;
+        padding-right: 5%;
+	}
+	
+	#top {
+		z-index: 100 !important;
+        width: 100%;
+        height: 150px;
+        padding-left: 33%;
+	}
+
+    #top .left {
+        display: block;
+        position: relative;
+        width: 100%;
+        left: 0px;
+    }
+    #top .left a {
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+        position: relative;
+    }
+    #top .left a:last-child {
+        margin-left: -4px;
+    }
+
+    #top .right {
+        display: block !important;
+        position: relative;
+        width: 100%;
+    }
+
+    #top .center {
+        display: block !important;
+        position: relative;
+        width: 100%;
+        float: left;
+        left: 0px;
+    }
+
+    #top .phones {
+        display: block !important;
+        position: relative;
+        width: 100%;
+    }
+
+    #top .phones div {
+        display: inline-block;
+        position: relative;
+        left: -45px;
+    }
+
+    #top #callback {
+        display: block !important;
+        position: relative;
+        width: 100%;
+        float: left;
+        left: -10px;
+    }
+
+	.pizza-content {
+		text-align: left !important;
+	}
+
+    .pizza-constructor > img {
+        width: 100%;
+    }
+
+    .pizza-constructor > div {
+        width: 100%;
+    }
+
+    .pizza-constructor .name {
+        font-size: 25px;
+    }
+
+    .pizza-constructor .link a {
+        font-size: 25px;
+    }
+
+    .pizza .content {
+        width: 100% !important;
+    }
+
+    .pizza .content .top {
+        width: 100% !important;
+        left: 0px !important;
+    }
+
+    .background {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .pizza .menu {
+        width: 100% !important;
+        left: 0px !important;
+    }
+
+    .pizza .content .top .title {
+        width: 100%;
+        position: relative;
+        left: 5%;
+    }
+
+    .pizza .menu .category .title {
+        position: relative;
+        left: 5% !important;
+        width: 80%;
+    }
+
+    .pizza .menu .category:first-child .title {
+        position: relative;
+        left: 5% !important;
+
+    }
+
+    .pizza .menu .category .dropdown {
+        float: left;
+    }
+
+    .pizza .menu .category .ingredients .item .name {
+        width: 100%;
+        position: relative;
+        top: -50px;
+        left: 5%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .pizza .menu .category .ingredients .item .action {
+        font-size: 40px;
+        height: 50px;
+    }
+
+    .pizza .menu .category .ingredients .item .action .minus {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50px;
+        height: 100%;
+    }
+
+    .pizza .menu .category .ingredients .item .action .plus {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .pizza .menu .category .ingredients .item .action .count {
+        position: absolute;
+        height: 100%;
+        left: 42%;
+    }
+
+    .pizza .menu .category .ingredients .item .action .count span {
+        position: relative;
+        top: -3px;
+    }
+
+    .pizza .content .top .weight {
+        position: relative;
+        left: 5%;
+    }
+
+    .pizza .content .top .size {
+        width: 90%;
+        left: 5%;
+        position: relative;
+    }
+
+    .pizza .content .top .size .select {
+        width: 100%;
+    }
+
+    .pizza .content .top .size .select .white {
+        position: absolute;
+        right: 80px;
+    }
+
+    .pizza .content .top .size .select .white.white2 {
+        position: absolute;
+        right: 35px;
+    }
+
+    .pizza .content .top .size .select .context {
+        width: 100%;
+        top: 54px;
+    }
+
+    .pizza .content .top .price {
+        width: 90%;
+        left: 5%;
+        position: relative;
+    }
+
+    .pizza .menu .category .ingredients .item .price .right::after {
+        content: ' грн.';
+    }
+
+    #checkout .product {
+        width: 100%;
+    }
+
+    .wrap {
+        padding-left: 0px;
+    }
+
+    footer .footer-menu > div.first, footer .footer-menu > div.second {
+        padding-left: 0px;
+    }
+
+    .pizza-constructor {
+        display: block !important;
+        float: none !important;
+        position: relative;
+        background-color: black;
+        width: 290px;
+        height: auto;
+        margin: 0 auto !important;
+        margin-bottom: 65px !important;
+    }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 720px) {
+    .pizza-constructor {
+        display: block !important;
+        float: none !important;
+        position: relative;
+        background-color: black;
+        width: 360px;
+        height: auto;
+        margin: 0 auto !important;
+        margin-bottom: 65px !important;
+    }
+}

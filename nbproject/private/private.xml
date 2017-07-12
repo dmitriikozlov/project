@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza_ingredient/edit.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/app/Http/Controllers/Site/PizzaController.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza/show.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza_size/index.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/app/Http/routes.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/site/pizza/basket-item.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/site/partials/basket.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/app/Modules/Pizza.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza_size/edit.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/site/partials/header.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza_category/index.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/site/layout/index.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/.env</file>
+            <file>file:/C:/xampp/htdocs/store/public/js/pizza.js</file>
+            <file>file:/C:/xampp/htdocs/store/app/Modules/Price.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza_ingredient/index.blade.php</file>
+            <file>file:/C:/xampp/htdocs/store/app/Http/Controllers/Site/SiteController.php</file>
+            <file>file:/C:/xampp/htdocs/store/resources/views/admin/pizza_category/edit.blade.php</file>
+        </group>
+    </open-files>
+</project-private>

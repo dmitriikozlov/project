@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /search
+Allow: /*.js
+Allow: /*.css
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.png
+
+User-agent: Yandex
+Disallow: /search
+
+Host: rnr.com.ua
+Sitemap: http://rnr.com.ua/sitemap.xml

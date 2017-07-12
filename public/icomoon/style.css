@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'pizza';
+  src:  url('fonts/icomoon.eot?8zrez2');
+  src:  url('fonts/icomoon.eot?8zrez2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8zrez2') format('truetype'),
+    url('fonts/icomoon.woff?8zrez2') format('woff'),
+    url('fonts/icomoon.svg?8zrez2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-pizza.icon2 {
+	font-family: 'pizza' !important;
+}
+
+.icon-pizza.icon2:before {
+  content: "\e900";
+}
+

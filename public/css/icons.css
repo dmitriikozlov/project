@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?j6wmqy');
+    src:    url('../fonts/icomoon.eot?j6wmqy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?j6wmqy') format('truetype'),
+    url('../fonts/icomoon.woff?j6wmqy') format('woff'),
+    url('../fonts/icomoon.svg?j6wmqy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-ks:before {
+    content: "\e901";
+}
+.icon-lifecell:before {
+    content: "\e919";
+}
+.icon-mts:before {
+    content: "\e91a";
+}
+.icon-cart:before {
+    content: "\e900";
+}
+.icon-chicken:before {
+    content: "\e902";
+}
+.icon-drinks:before {
+    content: "\e903";
+}
+.icon-sfb:before {
+    content: "\e904";
+}
+.icon-hot:before,
+.icon-mark-1{
+    content: "\e905";
+}
+.icon-hot-rolls:before {
+    content: "\e906";
+}
+.icon-sinst:before {
+    content: "\e907";
+}
+.icon-mastercard:before {
+    content: "\e908";
+}
+.icon-new:before {
+    content: "\e909";
+}
+.icon-privat24:before {
+    content: "\e90a";
+}
+.icon-recomend:before,
+.icon-mark-3 {
+    content: "\e90b";
+}
+.icon-rolls:before {
+    content: "\e90c";
+}
+.icon-salad:before {
+    content: "\e90d";
+}
+.icon-sashimi:before {
+    content: "\e90e";
+}
+.icon-search:before {
+    content: "\e90f";
+}
+.icon-shipping:before {
+    content: "\e910";
+}
+.icon-soup:before {
+    content: "\e911";
+}
+.icon-star:before {
+    content: "\e912";
+}
+.icon-sushi:before {
+    content: "\e913";
+}
+.icon-vegan:before,
+.icon-mark-2 {
+    content: "\e914";
+}
+.icon-visa:before {
+    content: "\e915";
+}
+.icon-svk:before {
+    content: "\e916";
+}
+.icon-wokbox:before {
+    content: "\e917";
+}
+.icon-sets:before {
+    content: "\e918";
+}
+
+.icon-hot-roll:before {
+    content: "\e91b";
+}
+.icon-times:before {
+    content: "\f00d";
+}
+.icon-filter:before {
+    content: "\f0b0";
+}
